@@ -1,0 +1,22 @@
+{
+    "name": "hexathos/laravel-hasuuid",
+    "description": "Autofills uuid",
+    "keywords": ["laravel", "eloquent", "uuid", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rainer Bendig",
+            "email": "hexathos@mailbox.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": ">=4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hexathos\\Traits\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
